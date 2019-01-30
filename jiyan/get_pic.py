@@ -8,7 +8,7 @@ def get_pic():
     # PROXY = '119.28.194.66:8888'
     chrome_options = webdriver.ChromeOptions()
     # chrome_options.add_argument('--proxy-server=http://%s' % PROXY)
-    driver = webdriver.Chrome(chrome_options=chrome_options)  # 启动全局浏览器
+    driver = webdriver.Chrome('C://Program Files (x86)/Google/Chrome/Application/chromedriver',chrome_options=chrome_options)  # 启动全局浏览器
     driver.set_window_size(1024, 768)
 
     driver.get('http://www.gsxt.gov.cn/index.html')
@@ -38,7 +38,7 @@ def get_pic():
 
         img_link = login_html.xpath(
             '//*[@class="geetest_item_img"]/@src')  # 获取验证码链接
-
+        print(img_link)
 
         try:
             if img_link[0]:  # 如果弹出验证码
@@ -48,6 +48,7 @@ def get_pic():
                 # logger.info('出现验证码--{}'.format(uuid))
                 img_path = '../jiyan/crawled_img/verifyCode{0}.jpg'.format(
                     int(time.time()))
+                print('ima_link0=%s'%img_link[0])
                 urllib.request.urlretrieve(img_link[0], img_path)
             else:
                 btn_retry = driver.find_element_by_xpath('/html/body/div[7]/div[2]/div[4]/div[3]')
@@ -58,6 +59,7 @@ def get_pic():
                 login_html = etree.HTML(login_text)
                 img_link1 = login_html.xpath('//*[@class="geetest_item_img"]/@src')  # 获取验证码链接
                 img_path = '../jiyan/crawled_img/verifyCode{0}.jpg'.format(int(time.time()))
+                print('ima_link1=%s' % img_link1[0])
                 urllib.request.urlretrieve(img_link1[0], img_path)
         except:
             driver.quit()

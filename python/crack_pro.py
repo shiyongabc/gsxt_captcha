@@ -11,6 +11,9 @@ import os
 from itertools import permutations
 from functools import reduce
 
+
+
+
 # 求多个列表的组合
 def combination(*lists): 
     total = reduce(lambda x, y: x * y, map(len, lists)) 
