@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="14997ed7-333c-48ff-a05b-8741e8f8f0d3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiyan/get_pic.py" beforeDir="false" afterPath="$PROJECT_DIR$/jiyan/get_pic.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/crack_pro.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/crack_pro.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/darknet.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/darknet.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jiyan/data/train.txt" beforeDir="false" afterPath="$PROJECT_DIR$/jiyan/data/train.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jiyan/data/valid.txt" beforeDir="false" afterPath="$PROJECT_DIR$/jiyan/data/valid.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -36,12 +33,20 @@
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/jiyan/data/train.txt">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="19">
+              <caret line="1" column="50" selection-start-line="1" selection-start-column="50" selection-end-line="1" selection-end-column="50" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/jiyan/data/valid.txt">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="19">
+              <caret line="1" column="50" selection-start-line="1" selection-start-column="50" selection-end-line="1" selection-end-column="50" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -138,6 +143,8 @@
         <option value="$PROJECT_DIR$/python/darknet.py" />
         <option value="$PROJECT_DIR$/python/crack_pro.py" />
         <option value="$PROJECT_DIR$/jiyan/get_pic.py" />
+        <option value="$PROJECT_DIR$/jiyan/data/valid.txt" />
+        <option value="$PROJECT_DIR$/jiyan/data/train.txt" />
       </list>
     </option>
   </component>
@@ -328,12 +335,12 @@
       <option name="presentableId" value="Default" />
       <updated>1548212818621</updated>
       <workItem from="1548212821102" duration="20035000" />
-      <workItem from="1548813585833" duration="6228000" />
+      <workItem from="1548813585833" duration="7273000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26263000" />
+    <option name="totallyTimeSpent" value="27308000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
@@ -494,13 +501,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jiyan/data/train.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/jiyan/data/yolo.names">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jiyan/data/valid.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/jiyan/data/train/1530942834.txt">
@@ -520,6 +521,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
           <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jiyan/data/valid.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="50" selection-start-line="1" selection-start-column="50" selection-end-line="1" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jiyan/data/train.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="50" selection-start-line="1" selection-start-column="50" selection-end-line="1" selection-end-column="50" />
         </state>
       </provider>
     </entry>

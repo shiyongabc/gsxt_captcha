@@ -1,2 +1,2 @@
 /root/gsxt_captcha/jiyan/data/train/1530942834.jpg
-/root/gsxt_captcha//jiyan/data/train/1530942839.jpg
+/root/gsxt_captcha/jiyan/data/train/1530942839.jpg
